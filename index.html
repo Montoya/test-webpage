@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <title>Ladder Letter</title>
+    <style>
+      body { 
+        font-family:Arial, Helvetica, sans-serif;
+        margin:0;
+      }
+      p { 
+        color:rgb(128,0,0);
+        font-weight:bold;
+        font-size:12px;
+        border-width:5px;
+        border-style:dashed;
+        border-color:blue;
+      }
+      h1 { 
+        color:purple;
+        text-decoration: underline;
+        height:100px;
+        margin:5%;
+        border:10px solid red;
+        padding:20px;
+        width:auto;
+        height:auto;
+        background-color:yellowgreen;
+      }
+      ul {
+        list-style-type:square;
+      }
+      ol { 
+        list-style-type: upper-roman;
+      }
+      p { 
+        color:gray; 
+      }
+      table { 
+        border-collapse:collapse;
+      }
+      th, td { 
+        border:1px solid #333; 
+        padding:4px 8px 4px 8px;
+      }
+      th, td { 
+        text-align:center;
+      }
+      p b { 
+        color:darkgreen; 
+      }
+      ol li>b { 
+        color:darkred;
+      }
+      .property { 
+        text-transform:uppercase;
+      }
+      .material { 
+        font-family:cursive;
+      }
+      .material.property { 
+        color:green;
+      }
+      th.property { 
+        background-color:yellow;
+      }
+      .property { 
+        background-color:aqua;
+      }
+      .row .mammal { 
+        background-color:brown;
+      }
+      ul li { 
+        font-style:italic;
+      } 
+      li { 
+        font-style:normal; 
+      }     
+      .row #canine { 
+        text-transform:uppercase;
+      }
+      .mammal#canine { 
+        color:aqua; 
+      }
+      #canine, #feline { 
+        color:white !important;
+      }
+      * { 
+        color:pink;
+      }
+      p * { 
+        background-color:purple;
+      }
+      *>li { 
+        background-color:black;
+      }
+
+      img { 
+        border-width:0;
+        border-color:black;
+        border-style:solid; 
+        border-radius:16px;
+        margin:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p title="Date">6/3/2023</p>
+    <h1 title="Addressee">Dear Mr. Jones,</h1>
+    <p>I am writing to inquire about your<br> <b>ladder</b>.  Please let me borrow it.</p>
+    <p>I would also like to borrow:</p>
+    <ol start="5">
+      <li>1 cup of <b>sugar</b></li>
+      <li>
+        Two tablecloths with the following properties: 
+        <ul>
+          <li class="property cloth-color">Blue</li>
+          <li class="property material">Linen</li>
+          <li class="property">Clean</li>
+        </ul>
+      </li>
+    </ol>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="property">Predator</th>
+          <th class="property">Prey</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row">
+          <th>1</th>
+          <td id="canine" class="mammal">Dog</td>
+          <td id="feline" class="mammal">Cat</td>
+        </tr>
+        <tr class="row">
+          <th>2</th>
+          <td class="bird">Bird</td>
+          <td class="fish">Fish</td>
+        </tr>
+        <tr class="row">
+          <th>3</th>
+          <td class="reptile">Red Coral Snake</td>
+          <td class="mammal">Mouse</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <img class="bird" src="https://images.unsplash.com/photo-1465153690352-10c1b29577f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVja3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" width="250" height="350" alt="A cute duck">
+    </p>
+    Here's a nice duck and a song 
+    <audio controls>
+      <source src="https://upload.wikimedia.org/wikipedia/en/b/bf/SuzVega-TomsDinerRemix.ogg" type="audio/ogg">
+    </audio>
+
+    <div>I am a div <span>I am a span</span></div>
+    
+  </body>
+</html>
